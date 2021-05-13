@@ -1,0 +1,7 @@
+After Effects Extension panel don't open:
+Solution: 
+Open the Registry Editor (windows start and type regedit) and go to
+Computer\HKEY_CURRENT_USER\Software\Adobe\CSXS.9*
+Add a new string and call it PlayerDebugMode. Set the value to 1. Restart AE.
+*it's change in diferent versions.
+
